@@ -5,8 +5,22 @@ html {
   font-size: 15px;
   color: #000000;
 }
+html {
+    box-sizing: border-box;
+}
 
+*,
+*:before,
+*::after {
+    box-sizing: inherit;
+}
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
 }
+body {background-color: lavenderblush;
+}
+h1 {
+	border-color: white;
+	}
+
